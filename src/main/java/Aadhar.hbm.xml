@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="com.digit.hibernateServlet.bean.AadharDetails" table="book">
+
+        <id name="aadharno"
+        column="aadharno"></id>
+        <property name="name">
+
+            <column name="name" />
+            
+
+        </property>
+ 
+
+ <property name="age">
+
+            <column name="age" />
+            
+
+        </property>
+         <property name="addr">
+
+            <column name="addr" />
+            </property>
+             <property name="city">
+
+            <column name="city" />
+             </property>
+              <property name="state">
+
+            <column name="state" />
+            </property>
+             <property name="country">
+
+            <column name="country" />
+            </property>
+             <property name="phoneno">
+
+            <column name="phoneno" />
+            
+
+        </property>
+            
+
+        </class>
+        </hibernate-mapping>
+        
+       
